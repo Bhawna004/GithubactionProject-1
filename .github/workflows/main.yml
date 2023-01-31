@@ -4,12 +4,12 @@ on:
     branches: ["main"]
   workflow_dispatch:
   
-  jobs:
-    build:
-      runs-on: ubuntu-latest
-      steps:
-        - uses: actions/checkout@v3
-        - name: greet user
-          run: echo welcome to actions
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: greet user
+        run: echo welcome to actions
           
         
